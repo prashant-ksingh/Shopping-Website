@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pados Ki Dukan</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+
+</head>
+<body>
+
+
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-light bg-dark  navbar-expand-md ">
+        <a href="index.html" class="navbar-brand"><i class="fas fa-shopping-bag text-success fa-2x"></i></a>
+        <a class="navbar-brand text-info text-uppercase font-weight-bold " href="index.html">Pados Ki Dukan</a>
+
+        <button class="location" id="loc">Detect your location</button>
+
+        <button type="button" class="navbar-toggler bg-light" data-toggle="collapse" href="#nav">
+             <span class="navbar-toggler-icon"></span></button>
+
+        <div class="collapse navbar-collapse" id="nav">
+            <ul class="navbar-nav">
+
+                <li class="nav-item">
+                    <a class="nav-link text-light text-uppercase font-weight-bold px-3" href="index.html">Home</a></li>
+                <li class="nav-item">
+                    <a  class="nav-link text-light text-uppercase font-weight-bold px-3"href="about.html">About Us</a></li>
+
+                <li class="nav-item dropdown show">
+                    
+                    <a  class="nav-link text-light text-uppercase font-weight-bold px-3
+                    dropdown-toggle" data-toggle="dropdown" href="#" > Products</a>
+
+                  <div class="dropdown-menu">
+                    
+                        <a href="allprod.html" class="dropdown-item text-uppercase font-weight-bold" >All Products</a>
+                        <a href="fruit.html" class="dropdown-item text-uppercase font-weight-bold" >Fruits</a>
+                        <a href="vegetable.html" class="dropdown-item text-uppercase font-weight-bold" >Vegetables</a>
+
+                  </div>
+
+                </li>
+
+                <li class="nav-item">
+                    <a href="profile.html" class="nav-link text-light text-uppercase font-weight-bold px-3">
+                        My Profile</a></li>
+
+                 <li class="nav-item">
+                     <a href="order.html" class="nav-link text-light text-uppercase font-weight-bold px-3">
+                         My order</a></li>
+
+                <li class="nav-item">
+                    <a href="faq.html" class="nav-link text-light text-uppercase font-weight-bold px-3">
+                        FAQ</a></li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link text-light text-uppercase font-weight-bold px-3">
+                        contact Us</a></li>
+            </ul>
+        
+         
+         
+        </div>
+        <form action="" class="form-inline ">
+            <div class="input-group">
+                <input type="text" placeholder="search" class="form-control">
+                <div class="input-group-append">
+                    <button type="button" class="btn">
+                        <i class="fas fa-search text-muted"></i>
+                    </button>
+                </div>
+            </div>
+        </form>
+        <div>
+            <a href="cart.html" class="navbar-brand px-3"><i class="fas fa-shopping-cart text-warning fa-2x"></i></a>
+            <a href="login.html" class="navbar-brand px-2"><i class="fas fa-user text-warning fa-2x"></i></a>
+        </div>
+    </nav>
+
+
+        <section class="p-2 p-sm-5 bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-16 text-center mb-3">
+                        <h1 class="text-info text-center display-2">your Cart</h1>    
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-5">
+                        <img src="images/product-6.jpg" alt="" width="23" height="150" loading="lazy">
+                        <h2>Pomogranates</h2>
+                    </div>
+                    <div class="col-5">
+                        <h3>Quantity</h3>
+                        <h4>150x2</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-5">
+                        <img src="images/product-1.jpg" alt="" width="23" height="150" loading="lazy">
+                        <h2>Banana</h2>
+                    </div>
+                    <div class="col-5">
+                        <h3>Quantity</h3>
+                        <h4>60x1</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-5">
+                        <img src="images/product-2.jpg" alt="" width="23" height="150" loading="lazy">
+                        <h2>Pumpkin</h2>
+                    </div>
+                    <div class="col-5">
+                        <h3>Quantity</h3>
+                        <h4>80x1</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-5">
+                        <img src="images/product-7.jpg" alt="" width="23" height="150" loading="lazy">
+                        <h2>Pomogranates</h2>
+                    </div>
+                    <div class="col-5">
+                        <h3>Beet Root</h3>
+                        <h4>100x2</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-5">
+                        
+                        <h2>Grand Total</h2>
+                    </div>
+                    <div class="col-5">
+                        <h3>640</h3>
+                        <h4>Rupees</h4>
+                    </div>
+                </div>
+                <div class="row-10">
+                    <a href="pay.html" class="btn btn-danger btn-lg m-3 px-4">Pay</a>
+                </div>
+        
+
+
+        </section>
+
+       
+
+       <!-- Footer -->
+       <footer class="bg-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1 class="text-white font-weight-bold text-capitalize p-3">Pados Ki Dukan</h1>
+                    <h3 class="text-light font-weight-light font-italic mb-3">Fresh and healty for your life</h3>
+                    <div class="py-2">
+                        <a href="#"><i class="fa fa-phone fa-2x text-warning mx-3"></i></a>
+                        <a href="#"><i class="fab fa-facebook fa-2x text-primary mx-3"></i></a>
+                        <a href="#"><i class="fab fa-twitter fa-2x text-info  mx-3"></i></a>
+                        <a href="#"><i class="fab fa-youtube fa-2x text-danger mx-3"></i></a>
+
+                    </div>
+
+                    <p class="text-light py-4 m-2px">&copy; Copyright 2022- Pados Ki Dukan</p>
+
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+
+
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" 
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    
+</body>
+</html>
